@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DisplayLink",
+        "repositoryURL": "https://github.com/timdonnelly/DisplayLink",
+        "state": {
+          "branch": null,
+          "revision": "e95f592a176246172324f10eb1bdc92f121d479f",
+          "version": "0.2.0"
+        }
+      },
+      {
+        "package": "GLTFSceneKit",
+        "repositoryURL": "https://github.com/frzi/GLTFSceneKit",
+        "state": {
+          "branch": null,
+          "revision": "589cac03b34a7f5103d14b3741bfcd8add417593",
+          "version": null
+        }
+      },
+      {
+        "package": "Model3DView",
+        "repositoryURL": "https://github.com/frzi/Model3DView-dev",
+        "state": {
+          "branch": "main",
+          "revision": "4e9e7db7901776e41f4ded211dc875e2a47a897b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
