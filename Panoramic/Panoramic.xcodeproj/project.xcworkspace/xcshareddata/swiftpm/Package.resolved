@@ -15,16 +15,16 @@
         "repositoryURL": "https://github.com/frzi/GLTFSceneKit",
         "state": {
           "branch": null,
-          "revision": "5981b86dc6e6e7bc910a5e38b03bea4c4053a5fd",
+          "revision": "589cac03b34a7f5103d14b3741bfcd8add417593",
           "version": null
         }
       },
       {
         "package": "Model3DView",
-        "repositoryURL": "https://github.com/frzi/Model3DView-dev",
+        "repositoryURL": "https://github.com/frzi/Model3DView",
         "state": {
           "branch": "main",
-          "revision": "b2f98f974d712d938f33d7bbd946c32e96f1c859",
+          "revision": "cb287d4355875bc0fe265b05d686918197659e34",
           "version": null
         }
       }

@@ -12,10 +12,10 @@
 		C020727427306F6B00B4939D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C020727327306F6B00B4939D /* Assets.xcassets */; };
 		C020727727306F6B00B4939D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C020727627306F6B00B4939D /* Preview Assets.xcassets */; };
 		C02072852730717C00B4939D /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02072842730717C00B4939D /* IntroductionView.swift */; };
+		C038C8BE277098F3003622EB /* Model3DView in Frameworks */ = {isa = PBXBuildFile; productRef = C038C8BD277098F3003622EB /* Model3DView */; };
 		C03DC2F0276F6A7C00C4EF1A /* bake4.png in Resources */ = {isa = PBXBuildFile; fileRef = C03DC2ED276F6A7C00C4EF1A /* bake4.png */; };
 		C03DC2F1276F6A7C00C4EF1A /* icons.gltf in Resources */ = {isa = PBXBuildFile; fileRef = C03DC2EE276F6A7C00C4EF1A /* icons.gltf */; };
 		C03DC2F2276F6A7C00C4EF1A /* icons.bin in Resources */ = {isa = PBXBuildFile; fileRef = C03DC2EF276F6A7C00C4EF1A /* icons.bin */; };
-		C03DC2F5276F6F7600C4EF1A /* Model3DView in Frameworks */ = {isa = PBXBuildFile; productRef = C03DC2F4276F6F7600C4EF1A /* Model3DView */; };
 		C09297AD276EA571007669D9 /* bake3.png in Resources */ = {isa = PBXBuildFile; fileRef = C09297A7276EA571007669D9 /* bake3.png */; };
 		C09297AF276EA571007669D9 /* floor.png in Resources */ = {isa = PBXBuildFile; fileRef = C09297A9276EA571007669D9 /* floor.png */; };
 		C09297B0276EA571007669D9 /* bake1.png in Resources */ = {isa = PBXBuildFile; fileRef = C09297AA276EA571007669D9 /* bake1.png */; };
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C03DC2F5276F6F7600C4EF1A /* Model3DView in Frameworks */,
+				C038C8BE277098F3003622EB /* Model3DView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +134,7 @@
 			);
 			name = FancyIntroduction;
 			packageProductDependencies = (
-				C03DC2F4276F6F7600C4EF1A /* Model3DView */,
+				C038C8BD277098F3003622EB /* Model3DView */,
 			);
 			productName = FancyIntroduction;
 			productReference = C020726C27306F6800B4939D /* FancyIntroduction.app */;
@@ -165,7 +165,7 @@
 			);
 			mainGroup = C020726327306F6800B4939D;
 			packageReferences = (
-				C03DC2F3276F6F7600C4EF1A /* XCRemoteSwiftPackageReference "Model3DView-dev" */,
+				C038C8BC277098F3003622EB /* XCRemoteSwiftPackageReference "Model3DView" */,
 			);
 			productRefGroup = C020726D27306F6800B4939D /* Products */;
 			projectDirPath = "";
@@ -411,9 +411,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C03DC2F3276F6F7600C4EF1A /* XCRemoteSwiftPackageReference "Model3DView-dev" */ = {
+		C038C8BC277098F3003622EB /* XCRemoteSwiftPackageReference "Model3DView" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/frzi/Model3DView-dev";
+			repositoryURL = "https://github.com/frzi/Model3DView";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -422,9 +422,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C03DC2F4276F6F7600C4EF1A /* Model3DView */ = {
+		C038C8BD277098F3003622EB /* Model3DView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C03DC2F3276F6F7600C4EF1A /* XCRemoteSwiftPackageReference "Model3DView-dev" */;
+			package = C038C8BC277098F3003622EB /* XCRemoteSwiftPackageReference "Model3DView" */;
 			productName = Model3DView;
 		};
 /* End XCSwiftPackageProductDependency section */

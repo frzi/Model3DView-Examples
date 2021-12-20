@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C038C8B927709856003622EB /* Model3DView in Frameworks */ = {isa = PBXBuildFile; productRef = C038C8B827709856003622EB /* Model3DView */; };
+		C038C8BB27709869003622EB /* Model3DView in Frameworks */ = {isa = PBXBuildFile; productRef = C038C8BA27709869003622EB /* Model3DView */; };
 		C0E67C58275419FB00F8EC58 /* PanoramicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E67C48275419F800F8EC58 /* PanoramicApp.swift */; };
 		C0E67C59275419FB00F8EC58 /* PanoramicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E67C48275419F800F8EC58 /* PanoramicApp.swift */; };
 		C0E67C5A275419FB00F8EC58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E67C49275419F800F8EC58 /* ContentView.swift */; };
 		C0E67C5B275419FB00F8EC58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E67C49275419F800F8EC58 /* ContentView.swift */; };
 		C0E67C5C275419FB00F8EC58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E67C4A275419FB00F8EC58 /* Assets.xcassets */; };
 		C0E67C5D275419FB00F8EC58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E67C4A275419FB00F8EC58 /* Assets.xcassets */; };
-		C0E67C6827541A9C00F8EC58 /* Model3DView in Frameworks */ = {isa = PBXBuildFile; productRef = C0E67C6727541A9C00F8EC58 /* Model3DView */; };
-		C0E67C6B27541AAF00F8EC58 /* Model3DView in Frameworks */ = {isa = PBXBuildFile; productRef = C0E67C6A27541AAF00F8EC58 /* Model3DView */; };
 		C0E67C6D27541C1C00F8EC58 /* Assets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E67C6C27541C1C00F8EC58 /* Assets.scnassets */; };
 		C0E67C6E27541C1C00F8EC58 /* Assets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E67C6C27541C1C00F8EC58 /* Assets.scnassets */; };
 /* End PBXBuildFile section */
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0E67C6827541A9C00F8EC58 /* Model3DView in Frameworks */,
+				C038C8B927709856003622EB /* Model3DView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0E67C6B27541AAF00F8EC58 /* Model3DView in Frameworks */,
+				C038C8BB27709869003622EB /* Model3DView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +111,7 @@
 			);
 			name = "Panoramic (iOS)";
 			packageProductDependencies = (
-				C0E67C6727541A9C00F8EC58 /* Model3DView */,
+				C038C8B827709856003622EB /* Model3DView */,
 			);
 			productName = "Panoramic (iOS)";
 			productReference = C0E67C4F275419FB00F8EC58 /* Panoramic.app */;
@@ -131,7 +131,7 @@
 			);
 			name = "Panoramic (macOS)";
 			packageProductDependencies = (
-				C0E67C6A27541AAF00F8EC58 /* Model3DView */,
+				C038C8BA27709869003622EB /* Model3DView */,
 			);
 			productName = "Panoramic (macOS)";
 			productReference = C0E67C55275419FB00F8EC58 /* Panoramic.app */;
@@ -165,7 +165,7 @@
 			);
 			mainGroup = C0E67C42275419F800F8EC58;
 			packageReferences = (
-				C0E67C6627541A9C00F8EC58 /* XCRemoteSwiftPackageReference "Model3DView-dev" */,
+				C038C8B727709856003622EB /* XCRemoteSwiftPackageReference "Model3DView" */,
 			);
 			productRefGroup = C0E67C50275419FB00F8EC58 /* Products */;
 			projectDirPath = "";
@@ -481,9 +481,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C0E67C6627541A9C00F8EC58 /* XCRemoteSwiftPackageReference "Model3DView-dev" */ = {
+		C038C8B727709856003622EB /* XCRemoteSwiftPackageReference "Model3DView" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/frzi/Model3DView-dev";
+			repositoryURL = "https://github.com/frzi/Model3DView";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -492,14 +492,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C0E67C6727541A9C00F8EC58 /* Model3DView */ = {
+		C038C8B827709856003622EB /* Model3DView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C0E67C6627541A9C00F8EC58 /* XCRemoteSwiftPackageReference "Model3DView-dev" */;
+			package = C038C8B727709856003622EB /* XCRemoteSwiftPackageReference "Model3DView" */;
 			productName = Model3DView;
 		};
-		C0E67C6A27541AAF00F8EC58 /* Model3DView */ = {
+		C038C8BA27709869003622EB /* Model3DView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C0E67C6627541A9C00F8EC58 /* XCRemoteSwiftPackageReference "Model3DView-dev" */;
+			package = C038C8B727709856003622EB /* XCRemoteSwiftPackageReference "Model3DView" */;
 			productName = Model3DView;
 		};
 /* End XCSwiftPackageProductDependency section */

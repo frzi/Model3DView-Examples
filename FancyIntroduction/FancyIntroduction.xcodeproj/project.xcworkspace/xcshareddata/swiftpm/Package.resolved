@@ -21,10 +21,10 @@
       },
       {
         "package": "Model3DView",
-        "repositoryURL": "https://github.com/frzi/Model3DView-dev",
+        "repositoryURL": "https://github.com/frzi/Model3DView",
         "state": {
           "branch": "main",
-          "revision": "4e9e7db7901776e41f4ded211dc875e2a47a897b",
+          "revision": "cb287d4355875bc0fe265b05d686918197659e34",
           "version": null
         }
       }
