@@ -24,7 +24,7 @@ struct IntroductionView: View {
 	 We position the (perspective) camera exactly where we want it.
 	 Angled slightly to add a bit more perspective.
 	 */
-	private let camera = PerspectiveCamera(position: [0, 0.5, 2], fov: .degrees(30)).lookingAt(center: [0, -0.25, 0])
+	private let camera = PerspectiveCamera(position: [0, 0.5, 2], fov: .degrees(25)).lookingAt(center: [0, -0.25, 0])
 	
 	/**
 	 The rotation angle(s) of the model. This will change accordingly to `currentIndex`.
