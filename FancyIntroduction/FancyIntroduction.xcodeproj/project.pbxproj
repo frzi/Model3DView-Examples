@@ -415,8 +415,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/frzi/Model3DView";
 			requirement = {
-				kind = revision;
-				revision = 8b3ee58a9a752c11511f9ead61ec42c4d533109a;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

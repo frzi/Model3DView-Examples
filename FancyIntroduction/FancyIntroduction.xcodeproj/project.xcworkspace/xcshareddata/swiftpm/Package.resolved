@@ -1,34 +1,32 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "DisplayLink",
-        "repositoryURL": "https://github.com/timdonnelly/DisplayLink",
-        "state": {
-          "branch": null,
-          "revision": "e95f592a176246172324f10eb1bdc92f121d479f",
-          "version": "0.2.0"
-        }
-      },
-      {
-        "package": "GLTFSceneKit",
-        "repositoryURL": "https://github.com/frzi/GLTFSceneKit",
-        "state": {
-          "branch": null,
-          "revision": "589cac03b34a7f5103d14b3741bfcd8add417593",
-          "version": "0.3.1"
-        }
-      },
-      {
-        "package": "Model3DView",
-        "repositoryURL": "https://github.com/frzi/Model3DView",
-        "state": {
-          "branch": null,
-          "revision": "8b3ee58a9a752c11511f9ead61ec42c4d533109a",
-          "version": null
-        }
+  "pins" : [
+    {
+      "identity" : "displaylink",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/timdonnelly/DisplayLink",
+      "state" : {
+        "revision" : "e95f592a176246172324f10eb1bdc92f121d479f",
+        "version" : "0.2.0"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "gltfscenekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/frzi/GLTFSceneKit",
+      "state" : {
+        "revision" : "589cac03b34a7f5103d14b3741bfcd8add417593",
+        "version" : "0.3.1"
+      }
+    },
+    {
+      "identity" : "model3dview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/frzi/Model3DView",
+      "state" : {
+        "branch" : "main",
+        "revision" : "db0b54213208d573a93ec853830eac60844eda86"
+      }
+    }
+  ],
+  "version" : 2
 }
